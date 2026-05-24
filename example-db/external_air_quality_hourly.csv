@@ -1,0 +1,4 @@
+﻿air_station_name,observed_at_kst,service_date,hour,pm10,pm25,o3,khai,air_quality_grade,source,raw_json,created_at
+용인,2026-05-21T07:00:00+09:00,2026-05-21,7,38.0,18.0,0.031,62.0,보통,example:AirKorea,"{""air_station_name"": ""용인"", ""observed_at_kst"": ""2026-05-21T07:00:00+09:00"", ""pm10"": 38, ""pm25"": 18, ""o3"": 0.031, ""khai"": 62, ""air_quality_grade"": ""보통""}",2026-05-20T18:00:09+00:00
+용인,2026-05-21T08:00:00+09:00,2026-05-21,8,42.0,20.0,0.034,67.0,보통,example:AirKorea,"{""air_station_name"": ""용인"", ""observed_at_kst"": ""2026-05-21T08:00:00+09:00"", ""pm10"": 42, ""pm25"": 20, ""o3"": 0.034, ""khai"": 67, ""air_quality_grade"": ""보통""}",2026-05-20T18:00:09+00:00
+용인,2026-05-21T17:00:00+09:00,2026-05-21,17,56.0,31.0,0.041,82.0,나쁨,example:AirKorea,"{""air_station_name"": ""용인"", ""observed_at_kst"": ""2026-05-21T17:00:00+09:00"", ""pm10"": 56, ""pm25"": 31, ""o3"": 0.041, ""khai"": 82, ""air_quality_grade"": ""나쁨""}",2026-05-20T18:00:09+00:00

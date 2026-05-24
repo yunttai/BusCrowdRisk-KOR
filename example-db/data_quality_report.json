@@ -1,0 +1,82 @@
+{
+  "totalRows": 128,
+  "dateRange": {
+    "startDate": "2026-05-21",
+    "endDate": "2026-05-22"
+  },
+  "nullColumns": [],
+  "imputedRates": {
+    "weather": 0.0,
+    "airQuality": 0.0625,
+    "traffic": 0.0625,
+    "event": 0.0
+  },
+  "routeRows": [
+    {
+      "canonical_route_name": "5000",
+      "row_count": 16
+    },
+    {
+      "canonical_route_name": "5001-1A",
+      "row_count": 16
+    },
+    {
+      "canonical_route_name": "5001-1B",
+      "row_count": 16
+    },
+    {
+      "canonical_route_name": "5001A",
+      "row_count": 16
+    },
+    {
+      "canonical_route_name": "5001B",
+      "row_count": 16
+    },
+    {
+      "canonical_route_name": "5003A",
+      "row_count": 16
+    },
+    {
+      "canonical_route_name": "5003B",
+      "row_count": 16
+    },
+    {
+      "canonical_route_name": "5005",
+      "row_count": 16
+    }
+  ],
+  "timePeriodRows": [
+    {
+      "time_period": "morning_peak",
+      "row_count": 80
+    },
+    {
+      "time_period": "evening_peak",
+      "row_count": 40
+    },
+    {
+      "time_period": "late_night",
+      "row_count": 8
+    }
+  ],
+  "recommendedFeatures": [
+    "temperature",
+    "precipitation",
+    "humidity",
+    "wind_speed",
+    "cloud_amount",
+    "weather_text",
+    "pm10",
+    "pm25",
+    "o3",
+    "khai",
+    "air_quality_grade",
+    "avg_speed",
+    "traffic_volume",
+    "delay_time",
+    "congestion_level",
+    "event_count",
+    "event_nearby_count"
+  ],
+  "excludedFeatures": []
+}

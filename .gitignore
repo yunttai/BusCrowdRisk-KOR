@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime databases and generated artifacts
+data/*
+!data/.gitkeep
+src/data/
+*.sqlite
+*.sqlite3
+*.db
+*.pkl
+
+# Raw/private data dumps
+sureing_occupancy_backup.sql
+*.backup.sql
+*.dump.sql
+
+# Generated reports/logs
+logs/
+*.log
+*.new.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
