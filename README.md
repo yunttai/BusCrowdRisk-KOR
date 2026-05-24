@@ -125,7 +125,7 @@ python -B -m unittest discover -s tests
 rg -n "PUBLIC_DATA_SERVICE_KEY=.+|ITS_API_KEY=.+|DATA_GG_SERVICE_KEY=.+|serviceKey=|apiKey=|KEY=" -S . -g "!data/**" -g "!sureing_occupancy_backup.sql" -g "!**/__pycache__/**"
 ```
 
-자세한 기준은 [레포_업로드_체크리스트.md](레포_업로드_체크리스트.md)를 봅니다.
+보고서 원본과 발표용 문서는 로컬 `보고서/` 디렉터리에 따로 보관하며, 해당 디렉터리는 `.gitignore`로 제외합니다.
 
 ## 다음 개발 순서
 
@@ -138,8 +138,6 @@ rg -n "PUBLIC_DATA_SERVICE_KEY=.+|ITS_API_KEY=.+|DATA_GG_SERVICE_KEY=.+|serviceK
 6. 발표용 데모 화면 제작
 ```
 
-용인 5000계열 노선 전처리 절차는 [데이터전처리_용인5000계열.md](데이터전처리_용인5000계열.md)에 정리했습니다.
-
 API 키 없이 전처리 결과를 확인하려면 예시 DB/CSV를 생성합니다.
 
 ```powershell
@@ -148,19 +146,9 @@ python scripts/build_example_db.py
 
 산출물은 [example-db](example-db) 폴더에 생성됩니다.
 
-현재 모델 구현 보고서는 [공공데이터_분석모델_구현보고서.md](공공데이터_분석모델_구현보고서.md)를 봅니다.
-
-일반인용 설명 문서는 [공공데이터_분석모델_일반인용_보고서.md](공공데이터_분석모델_일반인용_보고서.md)를 봅니다.
-
-실시간 API 한계, 결측 보정 원칙, feature 신뢰도 기준은 [데이터수집_결측보정_운영전략.md](데이터수집_결측보정_운영전략.md)에 정리했습니다.
-
-현재 모델 검증 결과와 남은 고도화 항목은 [모델검증_고도화_진행계획.md](모델검증_고도화_진행계획.md)에 정리했습니다.
-
 ## 만차확률 계산 원칙
 
 현재 코드는 옛 수식 기반 직접 계산이나 `날씨 +8점` 같은 점수 합산을 쓰지 않습니다.
-
-자세한 계산 흐름과 사용 데이터는 [만차위험도_계산설계.md](만차위험도_계산설계.md)를 봅니다.
 
 현재 운영 경로는 아래 하나입니다.
 

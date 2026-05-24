@@ -36,6 +36,7 @@ sureing_occupancy_backup.sql
 logs/
 *.log
 *.new.csv
+보고서/
 
 # OS/editor
 .DS_Store
